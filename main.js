@@ -34,7 +34,7 @@ console.log(somma); */
 
 
 
-// ######## JSNACK 4 ########
+/* // ######## JSNACK 4 ########
 //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby
 var lista_invitati = ["Gennaro", "Totuccio", "Antonino", "Paolo"];
 
@@ -44,4 +44,24 @@ if (lista_invitati.includes(tuo_nome)) {
     console.log("Puoi entrare, BENVENUTO!");
 } else {
     console.log("Mi dispiace, non puoi entrare!");
+} */
+
+
+
+
+
+// ######## JSNACK 5 ########
+//Crea un array vuoto.
+var num = [];
+
+//Chiedi per 6 volte all’utente di inserire un numero,
+//se è dispari inseriscilo nell’array
+for (var i = 0; i < 6; i++) {
+    var myNum;
+    myNum = parseInt(prompt("Inserisci un numero"));
+    if (myNum % 2 == 1) {
+        num.push(myNum);
+    } else {
+
+    }
 }
