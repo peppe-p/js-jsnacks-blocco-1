@@ -4,9 +4,9 @@ var word2 = prompt("Inserisci la 2a parola");
 
 //Il software stampa prima la parola più corta, poi la parola più lunga.
 if (word1.length < word2.length) {
-    console.log(word1 + " " + word2);
+    console.log(word1, word2);
 } else if (word2.length < word1.length) {
-    console.log(word2 + " " + word1);
+    console.log(word2, word1);
 } else {
     console.log("Le parole hanno la stessa lunghezza!");
 }
