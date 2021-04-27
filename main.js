@@ -1,5 +1,5 @@
 
-/* // ##### JSNACK 2 #####
+/* // ######## JSNACK 2 ########
 //L’utente inserisce due parole in successione, con due prompt.
 var word1 = prompt("Inserisci la 1a parola");
 var word2 = prompt("Inserisci la 2a parola");
@@ -15,7 +15,9 @@ if (word1.length < word2.length) {
  */
 
 
-// ##### JSNACK 3 #####
+
+
+/* // ######## JSNACK 3 ########
 var numeri = [];
 //Il software deve chiedere per 10 volte all’utente di inserire un numero.
 for (i = 0; i < 10; i++) {
@@ -26,4 +28,20 @@ var somma = 0;
 for (i = 0; i < numeri.length; i++) {
     somma = somma + numeri[i];
 }
-console.log(somma);
+console.log(somma); */
+
+
+
+
+
+// ######## JSNACK 4 ########
+//In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby
+var lista_invitati = ["Gennaro", "Totuccio", "Antonino", "Paolo"];
+
+//chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
+var tuo_nome = prompt("Vuoi partecipare? Qual'è il tuo nome?");
+if (lista_invitati.includes(tuo_nome)) {
+    console.log("Puoi entrare, BENVENUTO!");
+} else {
+    console.log("Mi dispiace, non puoi entrare!");
+}
