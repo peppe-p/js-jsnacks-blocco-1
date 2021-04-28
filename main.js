@@ -70,10 +70,38 @@ for (var i = 0; i < 6; i++) {
 
 
 
-// ######## JSNACK 6 ########
+/* // ######## JSNACK 6 ########
 //Stampa il cubo dei primi N numeri, dove N è un numero indicato dall’utente.
 var n_volte = parseInt(prompt("Fino a che numero vuoi sapere il cubo?"));
 for (var i = 1; i <= n_volte; i++) {
     var cubo = i ** 3;
     console.log(i + " = " + cubo);
+} */
+
+
+
+
+
+// ######## JSNACK 8 ########
+//Chiedi un numero di 4 cifre all’utente
+var controllo = true;
+while (controllo) {
+    var num = parseInt(prompt("Inserisci un numero di minimo 4 cifre"));
+    if (num < 1000) {
+        alert("Il numero deve essere ALMENO da 4 cifre!");
+    } else {
+        controllo = false;
+    }
 }
+//e calcola la somma di tutte le cifre che compongono il numero.
+var string_num = num.toString();
+var container = []
+for (var i = 0; i < string_num.length; i++) {
+    container.push(string_num.charAt(i));
+}
+var somma = 0;
+for (var i = 0; i < container.length; i++) {
+    var totale = somma += parseInt(container[i]);
+}
+//console.log(parseInt(container[0]));
+console.log("La somma delle cifre è: " + totale);
