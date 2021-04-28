@@ -50,7 +50,7 @@ if (lista_invitati.includes(tuo_nome)) {
 
 
 
-// ######## JSNACK 5 ########
+/* // ######## JSNACK 5 ########
 //Crea un array vuoto.
 var num = [];
 
@@ -64,4 +64,16 @@ for (var i = 0; i < 6; i++) {
     } else {
 
     }
+} */
+
+
+
+
+
+// ######## JSNACK 6 ########
+//Stampa il cubo dei primi N numeri, dove N è un numero indicato dall’utente.
+var n_volte = parseInt(prompt("Fino a che numero vuoi sapere il cubo?"));
+for (var i = 1; i <= n_volte; i++) {
+    var cubo = i ** 3;
+    console.log(i + " = " + cubo);
 }
