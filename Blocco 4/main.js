@@ -5,5 +5,5 @@ Peso = 10 */
 
 var palla = {
     nome: "Palla",
-    neso = 10
+    peso = 10,
 }
